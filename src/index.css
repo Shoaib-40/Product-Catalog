@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+}
+
+main {
+  margin-left: 230px;
+  padding-top: 56px;
+  width: calc(100% - 230px);
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.home-section,
+#products,
+#contact,
+#about {
+  scroll-margin-top: 60px;
+}
+
+
+
+.product-image {
+  height: 220px;
+  object-fit: cover;
+}
+
+.card {
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+footer {
+  margin-left: 230px;
+}
